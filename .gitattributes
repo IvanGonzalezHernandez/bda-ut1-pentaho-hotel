@@ -1,0 +1,3 @@
+# Los originales deben conservar sus bytes exactos (sha256 de asignacion.json)
+entrada/*.csv -text
+asignacion.json -text
