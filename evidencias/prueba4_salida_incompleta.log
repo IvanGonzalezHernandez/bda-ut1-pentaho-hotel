@@ -1,0 +1,19 @@
+2026/11/15 18:28:02 - Pan - Logging is at level : Basic
+2026/11/15 18:28:02 - Pan - Start of run.
+2026/11/15 18:28:03 - validar_informe - Iniciado despacho de la transformaci?n [validar_informe]
+2026/11/15 18:28:03 - Leer informe.0 - Header row skipped in file 'file:///C:/CursoIA/BDA/bda-ut1-pentaho-hotel/procesos/../temporal/informe_hotel_canal.csv'
+2026/11/15 18:28:03 - Leer informe.0 - Procesamiento finalizado (I=1, O=0, R=0, W=0, U=0, E=0)
+2026/11/15 18:28:03 - Calcular totales.0 - Procesamiento finalizado (I=0, O=0, R=0, W=1, U=0, E=0)
+2026/11/15 18:28:03 - Informe inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Row nr 1 causing abort "Abort the running transformation": [0], [null], [null]
+2026/11/15 18:28:03 - Informe inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Validación del informe fallida
+2026/11/15 18:28:03 - Informe inválido.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:28:03 - Comprobar totales.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:28:03 - Pan - Finished!
+2026/11/15 18:28:03 - Pan - Start=2026/11/15 18:28:03.002, Stop=2026/11/15 18:28:03.138
+2026/11/15 18:28:03 - Pan - Processing ended after 0 seconds.
+2026/11/15 18:28:03 - validar_informe -  
+2026/11/15 18:28:03 - validar_informe - Los procesos Leer informe.0 han finalizado correctamente, se han procesado 0 l?neas. ( - l?neas)
+2026/11/15 18:28:03 - validar_informe - Los procesos Calcular totales.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+2026/11/15 18:28:03 - validar_informe - Los procesos Comprobar totales.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+2026/11/15 18:28:03 - validar_informe - Los procesos Informe válido.0 han finalizado correctamente, se han procesado 0 l?neas. ( - l?neas)
+2026/11/15 18:28:03 - validar_informe - Los procesos Informe inválido.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
