@@ -10,6 +10,14 @@
 - Una conexión entre pasos quedó desactivada y el paso `Leer hoteles` no tenía los campos cargados.
 - En el Agrupar por, `n_reservas` quedó sin tipo de agregación.
 
+## Comprobado
+- 20 filas en la vista previa de reservas y 15 tras el Merge join INNER con cobros.
+- 15 filas tras la unión con hoteles.
+
+## Ayuda recibida
+- Apuntes de clase de la UT1.
+- Claude: guía paso a paso y revisión de cada `.ktr` guardado. Corrigió en el archivo el orden ascendente de los dos Ordenar filas y el tipo de agregación de `n_reservas`.
+
 ## Pendiente
 - Terminar la agrupación y escribir el CSV provisional.
 

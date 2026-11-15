@@ -435,6 +435,26 @@
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
+    <notepad>
+      <note>Iván González Hernández (A010)&#xd;&#xa;¿El listado provisional tiene exactamente las reservas 4, 9, 11, 15 y 18, sin duplicados? Si no, aborta.</note>
+      <xloc>608</xloc>
+      <yloc>32</yloc>
+      <width>330</width>
+      <heigth>60</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>14</fontcolorred>
+      <fontcolorgreen>58</fontcolorgreen>
+      <fontcolorblue>90</fontcolorblue>
+      <backgroundcolorred>201</backgroundcolorred>
+      <backgroundcolorgreen>232</backgroundcolorgreen>
+      <backgroundcolorblue>251</backgroundcolorblue>
+      <bordercolorred>14</bordercolorred>
+      <bordercolorgreen>58</bordercolorgreen>
+      <bordercolorblue>90</bordercolorblue>
+    </notepad>
   </notepads>
   <order>
     <hop>
@@ -502,6 +522,12 @@
         <aggregate>id_max</aggregate>
         <subject>id_reserva</subject>
         <type>MAX</type>
+        <valuefield/>
+      </field>
+      <field>
+        <aggregate>ids</aggregate>
+        <subject>id_reserva</subject>
+        <type>CONCAT_COMMA</type>
         <valuefield/>
       </field>
     </fields>
@@ -604,6 +630,22 @@
               <mask>####0;-####0</mask>
             </value>
           </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>ids</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>String</type>
+              <text>4, 9, 11, 15, 18</text>
+              <length>-1</length>
+              <precision>-1</precision>
+              <isnull>N</isnull>
+              <mask/>
+            </value>
+          </condition>
         </conditions>
       </condition>
     </compare>
@@ -665,7 +707,7 @@
     <displayHeader>Y</displayHeader>
     <limitRows>N</limitRows>
     <limitRowsNumber>0</limitRowsNumber>
-    <logmessage>Reservas sin cobro validadas: 5 filas, sin duplicados</logmessage>
+    <logmessage>Reservas sin cobro validadas: 5 filas (4, 9, 11, 15 y 18), sin duplicados</logmessage>
     <fields>
       </fields>
     <attributes/>

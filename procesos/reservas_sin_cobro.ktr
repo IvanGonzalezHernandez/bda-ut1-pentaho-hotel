@@ -435,6 +435,26 @@
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
+    <notepad>
+      <note>Iván González Hernández (A010)&#xd;&#xa;¿Qué reservas no tienen un cobro asociado en el archivo recibido?</note>
+      <xloc>656</xloc>
+      <yloc>32</yloc>
+      <width>330</width>
+      <heigth>60</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>14</fontcolorred>
+      <fontcolorgreen>58</fontcolorgreen>
+      <fontcolorblue>90</fontcolorblue>
+      <backgroundcolorred>201</backgroundcolorred>
+      <backgroundcolorgreen>232</backgroundcolorgreen>
+      <backgroundcolorblue>251</backgroundcolorblue>
+      <bordercolorred>14</bordercolorred>
+      <bordercolorgreen>58</bordercolorgreen>
+      <bordercolorblue>90</bordercolorblue>
+    </notepad>
   </notepads>
   <order>
     <hop>
@@ -562,7 +582,7 @@
         <format>#.##</format>
         <currency>€</currency>
         <decimal>.</decimal>
-        <group>,</group>
+        <group/>
         <length>15</length>
         <precision>2</precision>
         <trim_type>none</trim_type>
@@ -743,7 +763,7 @@
         <format>#.##</format>
         <currency>€</currency>
         <decimal>.</decimal>
-        <group>,</group>
+        <group/>
         <length>15</length>
         <precision>2</precision>
         <trim_type>none</trim_type>
@@ -1137,7 +1157,7 @@
         <currency/>
         <decimal/>
         <group/>
-        <nullif>Sin cobro registrado</nullif>
+        <nullif>Sin cobro asociado en el archivo recibido</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>

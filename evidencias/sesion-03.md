@@ -11,6 +11,14 @@
 - Formato de importes corregido para escribir `496.50` con punto y sin separador de miles.
 - Al borrar pasos para reutilizar la transformación se borró `Leer hoteles` por error; se recuperó.
 
+## Comprobado
+- Informe provisional con los 13 grupos de la tabla de referencia y 3965.50 € (ejecutado también con Pan).
+- Listado sin cobro con las reservas 4, 9, 11, 15 y 18, contrastado con los CSV de entrada.
+
+## Ayuda recibida
+- Apuntes de clase de la UT1.
+- Claude: guía paso a paso y revisión de los `.ktr`. Corrigió en el archivo la salida de texto del informe (nombre de fichero, formatos y longitud de los textos) y rellenó los agregados del Agrupar por de `validar_informe.ktr`.
+
 ## Pendiente
 - Terminar `validar_informe.ktr`.
 

@@ -7,6 +7,12 @@
 ## Problemas
 - Ninguno; sesión corta.
 
+## Comprobado
+- Rutas de las dos validaciones dentro del job.
+
+## Ayuda recibida
+- Apuntes de clase de la UT1 y el manual resumido con Claude. Trabajo hecho por mi cuenta.
+
 ## Pendiente
 - Configurar las copias a `salida/`, sus abortos, el registro de éxito y ejecutar el job.
 

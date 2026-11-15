@@ -1,0 +1,63 @@
+===== Caso: id_cambiado =====
+2026/11/15 18:57:22 - Pan - Logging is at level : Basic
+2026/11/15 18:57:22 - Pan - Start of run.
+2026/11/15 18:57:22 - validar_sin_cobro - Iniciado despacho de la transformaci?n [validar_sin_cobro]
+2026/11/15 18:57:22 - Leer sin cobro.0 - Header row skipped in file 'C:/Users/ivang/AppData/Local/Temp/claude/3aa75cb49fb1b8e2/d92421b9-5baf-49b1-bf53-550c3cae8401/scratchpad/vsc/id_cambiado.csv'
+2026/11/15 18:57:22 - Leer sin cobro.0 - Procesamiento finalizado (I=6, O=0, R=0, W=5, U=0, E=0)
+2026/11/15 18:57:22 - Calcular totales.0 - Procesamiento finalizado (I=0, O=0, R=5, W=1, U=0, E=0)
+2026/11/15 18:57:22 - Sin cobro inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Row nr 1 causing abort "Abort the running transformation": [5], [5], [4], [17], [4, 9, 11, 15, 17]
+2026/11/15 18:57:22 - Sin cobro inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Validación de reservas sin cobro fallida
+2026/11/15 18:57:22 - Sin cobro inválido.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:57:22 - Comprobar totales.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:57:22 - Pan - Finished!
+2026/11/15 18:57:22 - Pan - Start=2026/11/15 18:57:22.439, Stop=2026/11/15 18:57:22.579
+2026/11/15 18:57:22 - Pan - Processing ended after 0 seconds.
+2026/11/15 18:57:22 - validar_sin_cobro -  
+2026/11/15 18:57:22 - validar_sin_cobro - Los procesos Leer sin cobro.0 han finalizado correctamente, se han procesado 5 l?neas. ( - l?neas)
+2026/11/15 18:57:22 - validar_sin_cobro - Los procesos Calcular totales.0 han finalizado correctamente, se han procesado 5 l?neas. ( - l?neas)
+2026/11/15 18:57:22 - validar_sin_cobro - Los procesos Comprobar totales.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+2026/11/15 18:57:22 - validar_sin_cobro - Los procesos Sin cobro válido.0 han finalizado correctamente, se han procesado 0 l?neas. ( - l?neas)
+2026/11/15 18:57:22 - validar_sin_cobro - Los procesos Sin cobro inválido.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+
+===== Caso: duplicado =====
+2026/11/15 18:57:27 - Pan - Logging is at level : Basic
+2026/11/15 18:57:27 - Pan - Start of run.
+2026/11/15 18:57:27 - validar_sin_cobro - Iniciado despacho de la transformaci?n [validar_sin_cobro]
+2026/11/15 18:57:27 - Leer sin cobro.0 - Header row skipped in file 'C:/Users/ivang/AppData/Local/Temp/claude/3aa75cb49fb1b8e2/d92421b9-5baf-49b1-bf53-550c3cae8401/scratchpad/vsc/duplicado.csv'
+2026/11/15 18:57:27 - Leer sin cobro.0 - Procesamiento finalizado (I=7, O=0, R=0, W=6, U=0, E=0)
+2026/11/15 18:57:27 - Calcular totales.0 - Procesamiento finalizado (I=0, O=0, R=6, W=1, U=0, E=0)
+2026/11/15 18:57:27 - Sin cobro inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Row nr 1 causing abort "Abort the running transformation": [6], [5], [4], [18], [4, 9, 11, 15, 18, 4]
+2026/11/15 18:57:27 - Sin cobro inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Validación de reservas sin cobro fallida
+2026/11/15 18:57:27 - Sin cobro inválido.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:57:27 - Comprobar totales.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:57:27 - Pan - Finished!
+2026/11/15 18:57:27 - Pan - Start=2026/11/15 18:57:27.572, Stop=2026/11/15 18:57:27.769
+2026/11/15 18:57:27 - Pan - Processing ended after 0 seconds.
+2026/11/15 18:57:27 - validar_sin_cobro -  
+2026/11/15 18:57:27 - validar_sin_cobro - Los procesos Leer sin cobro.0 han finalizado correctamente, se han procesado 6 l?neas. ( - l?neas)
+2026/11/15 18:57:27 - validar_sin_cobro - Los procesos Calcular totales.0 han finalizado correctamente, se han procesado 6 l?neas. ( - l?neas)
+2026/11/15 18:57:27 - validar_sin_cobro - Los procesos Comprobar totales.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+2026/11/15 18:57:27 - validar_sin_cobro - Los procesos Sin cobro válido.0 han finalizado correctamente, se han procesado 0 l?neas. ( - l?neas)
+2026/11/15 18:57:27 - validar_sin_cobro - Los procesos Sin cobro inválido.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+
+===== Caso: cabecera =====
+2026/11/15 18:57:35 - Pan - Logging is at level : Basic
+2026/11/15 18:57:35 - Pan - Start of run.
+2026/11/15 18:57:35 - validar_sin_cobro - Iniciado despacho de la transformaci?n [validar_sin_cobro]
+2026/11/15 18:57:35 - Leer sin cobro.0 - Header row skipped in file 'C:/Users/ivang/AppData/Local/Temp/claude/3aa75cb49fb1b8e2/d92421b9-5baf-49b1-bf53-550c3cae8401/scratchpad/vsc/cabecera.csv'
+2026/11/15 18:57:35 - Leer sin cobro.0 - Procesamiento finalizado (I=1, O=0, R=0, W=0, U=0, E=0)
+2026/11/15 18:57:35 - Calcular totales.0 - Procesamiento finalizado (I=0, O=0, R=0, W=1, U=0, E=0)
+2026/11/15 18:57:35 - Sin cobro inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Row nr 1 causing abort "Abort the running transformation": [0], [null], [null], [null], []
+2026/11/15 18:57:35 - Sin cobro inválido.0 - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Validación de reservas sin cobro fallida
+2026/11/15 18:57:35 - Sin cobro inválido.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:57:35 - Comprobar totales.0 - Procesamiento finalizado (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/11/15 18:57:35 - Pan - Finished!
+2026/11/15 18:57:35 - Pan - Start=2026/11/15 18:57:35.462, Stop=2026/11/15 18:57:35.681
+2026/11/15 18:57:35 - Pan - Processing ended after 0 seconds.
+2026/11/15 18:57:35 - validar_sin_cobro -  
+2026/11/15 18:57:35 - validar_sin_cobro - Los procesos Leer sin cobro.0 han finalizado correctamente, se han procesado 0 l?neas. ( - l?neas)
+2026/11/15 18:57:35 - validar_sin_cobro - Los procesos Calcular totales.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+2026/11/15 18:57:35 - validar_sin_cobro - Los procesos Comprobar totales.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+2026/11/15 18:57:35 - validar_sin_cobro - Los procesos Sin cobro válido.0 han finalizado correctamente, se han procesado 0 l?neas. ( - l?neas)
+2026/11/15 18:57:35 - validar_sin_cobro - Los procesos Sin cobro inválido.0 han finalizado correctamente, se han procesado 1 l?neas. ( - l?neas)
+

@@ -48,8 +48,10 @@ Todos están en UTF-8, con cabecera, punto decimal y sin separador de miles.
 | `informe_cobros.ktr` | Une reservas y cobros (Merge join INNER por `id_reserva`), añade el hotel (INNER por `id_hotel`), agrupa por hotel y canal y escribe `temporal/informe_hotel_canal.csv` |
 | `reservas_sin_cobro.ktr` | Une reservas y cobros con LEFT OUTER, se queda con las que no tienen cobro (`id_reserva_cobro` nulo), añade el hotel y el motivo y escribe `temporal/reservas_sin_cobro.csv` |
 | `validar_informe.ktr` | Exige 13 grupos, 15 reservas y 3965.50 €; si no cuadra, aborta |
-| `validar_sin_cobro.ktr` | Exige 5 filas, 5 identificadores distintos y entre 1 y 20; si no cuadra, aborta |
+| `validar_sin_cobro.ktr` | Exige 5 filas sin duplicados y que los identificadores sean exactamente 4, 9, 11, 15 y 18; si no cuadra, aborta |
 | `cierre_hotel.kjb` | Comprueba las entradas, ejecuta los informes, los valida y solo entonces los copia a `salida/` |
+
+Cada proceso tiene en el lienzo una nota con el autor y la pregunta que resuelve.
 
 ## Cómo reproducirlo desde una copia nueva
 
@@ -72,7 +74,7 @@ Todos están en UTF-8, con cabecera, punto decimal y sin separador de miles.
    - En el log aparecen «Informe validado: 13 grupos, 15 reservas, 3965.50 €», «Reservas sin cobro validadas: 5 filas, sin duplicados» y «Cierre cierre_aula_01 publicado correctamente».
    - `salida/informe_hotel_canal.csv` tiene 13 filas y `salida/reservas_sin_cobro.csv` tiene 5 (reservas 4, 9, 11, 15 y 18).
 
-Todas las rutas son relativas al propio proceso (`${Internal.Transformation.Filename.Directory}` y `${Internal.Job.Filename.Directory}`), así que funciona en cualquier carpeta donde se clone. Las transformaciones también se pueden lanzar sueltas con `Pan.bat /file:...`.
+No hace falta crear ninguna carpeta: `entrada/` y `salida/` vienen en el repositorio y `temporal/` la crean las transformaciones al escribir. Todas las rutas son relativas al propio proceso (`${Internal.Transformation.Filename.Directory}` y `${Internal.Job.Filename.Directory}`), así que funciona en cualquier carpeta donde se clone. Las transformaciones también se pueden lanzar sueltas con `Pan.bat /file:...`.
 
 ## Decisiones de diseño
 

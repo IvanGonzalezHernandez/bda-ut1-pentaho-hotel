@@ -1,6 +1,6 @@
 # Pruebas obligatorias — cierre_aula_01 (A010)
 
-Ejecutadas el 2026-11-15 con PDI 9.4.0.0-343 (Kitchen para el job, Pan para las validaciones).
+Ejecutadas el 2026-11-15 con PDI 9.4.0.0-343 (Kitchen para el job, Pan para las validaciones), con la versión final de los procesos.
 Los originales de `entrada/` no se han modificado: tras las pruebas su sha256 coincide con `asignacion.json`.
 
 | # | Prueba | Qué se hizo | Esperado | Obtenido | Log | Conclusión |
@@ -24,6 +24,20 @@ Se marcó `salida/reservas_sin_cobro.csv` como solo lectura y se lanzó el job.
 - Después se quitó el atributo de solo lectura y la prueba 6 dejó `salida/` coherente.
 
 Log: [prueba_extra_fallo_copia](prueba_extra_fallo_copia.log)
+
+## Prueba adicional: validación de reservas sin cobro
+
+`validar_sin_cobro.ktr` lanzado con Pan sobre tres copias alteradas del listado provisional (fuera del repositorio):
+
+| Caso | Le llega al filtro (`n_filas`, `n_distintos`, `id_min`, `id_max`, `ids`) | Resultado |
+|---|---|---|
+| Reserva 18 cambiada por 17 | `5, 5, 4, 17, «4, 9, 11, 15, 17»` | Aborta: los identificadores no son los esperados ✅ |
+| Reserva 4 duplicada | `6, 5, 4, 18, «4, 9, 11, 15, 18, 4»` | Aborta: 6 filas y solo 5 distintas ✅ |
+| Solo cabecera | `0, null, null, null, «»` | Aborta ✅ |
+
+Con el listado real llega `5, 5, 4, 18, «4, 9, 11, 15, 18»` y valida.
+
+Log: [prueba_extra_validar_sin_cobro](prueba_extra_validar_sin_cobro.log)
 
 ## Observación
 

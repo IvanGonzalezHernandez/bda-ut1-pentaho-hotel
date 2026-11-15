@@ -1,6 +1,6 @@
 id_reserva;hotel;canal;importe;motivo
-4;Santander;web;89.90;Sin cobro registrado
-9;Noja;ota;140.00;Sin cobro registrado
-11;Laredo;recepcion;72.00;Sin cobro registrado
-15;Noja;recepcion;268.00;Sin cobro registrado
-18;Potes;ota;70.00;Sin cobro registrado
+4;Santander;web;89.90;Sin cobro asociado en el archivo recibido
+9;Noja;ota;140.00;Sin cobro asociado en el archivo recibido
+11;Laredo;recepcion;72.00;Sin cobro asociado en el archivo recibido
+15;Noja;recepcion;268.00;Sin cobro asociado en el archivo recibido
+18;Potes;ota;70.00;Sin cobro asociado en el archivo recibido

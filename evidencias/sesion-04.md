@@ -8,6 +8,14 @@
 - El Agrupar por tenía campos de grupo y devolvía 13 filas en vez de una.
 - El mensaje del log no se guardaba porque se escribía en otro sitio del diálogo.
 
+## Comprobado
+- Con el informe real valida; con un CSV de solo cabecera y con un total alterado aborta.
+- El mensaje del log sale en la ejecución.
+
+## Ayuda recibida
+- Apuntes de clase de la UT1.
+- Claude: guía paso a paso, revisión del `.ktr` y pruebas con Pan sobre copias alteradas.
+
 ## Pendiente
 - `validar_sin_cobro.ktr`.
 

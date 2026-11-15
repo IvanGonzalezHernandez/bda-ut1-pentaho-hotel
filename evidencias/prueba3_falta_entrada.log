@@ -1,15 +1,15 @@
-2026/11/15 18:25:50 - Kitchen - Logging is at level : Basic
-2026/11/15 18:25:50 - Kitchen - Start of run.
-2026/11/15 18:25:52 - Informe cobros - Start of job execution
-2026/11/15 18:25:52 - Informe cobros - Starting entry [Existe reservas]
-2026/11/15 18:25:52 - Informe cobros - Starting entry [Existe cobros]
-2026/11/15 18:25:52 - Informe cobros - Starting entry [Falta cobros]
-2026/11/15 18:25:52 - Falta cobros - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Falta la entrada cobros_pdi.csv
-2026/11/15 18:25:52 - Informe cobros - Finished job entry [Falta cobros] (result=[false])
-2026/11/15 18:25:52 - Informe cobros - Finished job entry [Existe cobros] (result=[false])
-2026/11/15 18:25:52 - Informe cobros - Finished job entry [Existe reservas] (result=[false])
-2026/11/15 18:25:52 - Informe cobros - Job execution finished
-2026/11/15 18:25:52 - Kitchen - Finished!
-2026/11/15 18:25:52 - Kitchen - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Finished with errors
-2026/11/15 18:25:52 - Kitchen - Start=2026/11/15 18:25:52.681, Stop=2026/11/15 18:25:52.753
-2026/11/15 18:25:52 - Kitchen - Processing ended after 0 seconds.
+2026/11/15 18:56:41 - Kitchen - Logging is at level : Basic
+2026/11/15 18:56:41 - Kitchen - Start of run.
+2026/11/15 18:56:44 - Informe cobros - Start of job execution
+2026/11/15 18:56:44 - Informe cobros - Starting entry [Existe reservas]
+2026/11/15 18:56:45 - Informe cobros - Starting entry [Existe cobros]
+2026/11/15 18:56:45 - Informe cobros - Starting entry [Falta cobros]
+2026/11/15 18:56:45 - Falta cobros - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Falta la entrada cobros_pdi.csv
+2026/11/15 18:56:45 - Informe cobros - Finished job entry [Falta cobros] (result=[false])
+2026/11/15 18:56:45 - Informe cobros - Finished job entry [Existe cobros] (result=[false])
+2026/11/15 18:56:45 - Informe cobros - Finished job entry [Existe reservas] (result=[false])
+2026/11/15 18:56:45 - Informe cobros - Job execution finished
+2026/11/15 18:56:45 - Kitchen - Finished!
+2026/11/15 18:56:45 - Kitchen - ERROR (version 9.4.0.0-343, build 0.0 from 2022-11-08 07.50.27 by buildguy) : Finished with errors
+2026/11/15 18:56:45 - Kitchen - Start=2026/11/15 18:56:44.887, Stop=2026/11/15 18:56:45.030
+2026/11/15 18:56:45 - Kitchen - Processing ended after 0 seconds.

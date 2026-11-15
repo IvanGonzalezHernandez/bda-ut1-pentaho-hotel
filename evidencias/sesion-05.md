@@ -9,6 +9,14 @@
 - El filtro tenía `=` en lugar de `>=` y `<=` y una condición vacía de más.
 - Al principio las tres comprobaciones de entradas salían en paralelo desde Inicio; se encadenaron.
 
+## Comprobado
+- `validar_sin_cobro` valida con el listado real y aborta con un duplicado y con solo cabecera.
+- Encadenamiento correcto de las comprobaciones de entradas en el job.
+
+## Ayuda recibida
+- Apuntes de clase de la UT1.
+- Claude: guía paso a paso y revisión de los archivos. Rehízo en el archivo la lectura y los agregados de `validar_sin_cobro.ktr` tras guardarse una versión antigua.
+
 ## Pendiente
 - Validaciones y publicación en el job.
 
